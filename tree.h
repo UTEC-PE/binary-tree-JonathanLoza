@@ -82,6 +82,10 @@ public:
     return ite;*/
     return Iterator<T>(nullptr);
   };
+
+  // Solo te faltó el destructor, pero como implementaste tu propia stack te lo pasaré
+  // Nunca te olvides de implementar el destructor!
+
 };
 
 #endif
